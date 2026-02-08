@@ -68,7 +68,7 @@ function App() {
         </button>
 
         <motion.button
-          onClick={moveNoButton}
+          onHoverStart={moveNoButton}
           animate={noCount > 0 ? {
             position: 'fixed',
             left: `${noPosition.x}px`,
@@ -89,7 +89,7 @@ function App() {
         </motion.button>
       </div>
       <div style={{ marginTop: '3rem', fontSize: '1.2rem', color: '#e11d48', fontStyle: 'italic' }}>
-        With love, Samuel 💘
+        With love, Samie 💘
       </div>
     </div>
   )
